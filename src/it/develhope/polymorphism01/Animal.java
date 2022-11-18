@@ -9,10 +9,10 @@ public class Animal {
     public String animalSound(){
         return "Roarr!";
     }
-    public String animalSound(double intensityDecibel){
-        if(intensityDecibel>=80){
+    public String animalSound(String x){
+        if(x.equals("High")){
             return "Roarrrrrrrr!";
-        } if (intensityDecibel > 1 && intensityDecibel <80){
+        } if (x.equals("Low")){
             return "Roar";
         } else {
             return "Cannot reproduce it properly";

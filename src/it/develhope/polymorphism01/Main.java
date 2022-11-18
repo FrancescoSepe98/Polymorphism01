@@ -6,11 +6,11 @@ public class Main {
         Animal lyon = new Animal("Leo");
         System.out.println(lyon.animalSound());
         System.out.println("-------------------------------------------------------------");
-        System.out.println(lyon.animalSound(100));//High intensity roar test
+        System.out.println(lyon.animalSound("High"));//High intensity roar test
         System.out.println("-------------------------------------------------------------");
-        System.out.println(lyon.animalSound(23));//Low intensity roar test
+        System.out.println(lyon.animalSound("Low"));//Low intensity roar test
         System.out.println("-------------------------------------------------------------");
-        System.out.println(lyon.animalSound(-100000000));//invaluable intensity
+        System.out.println(lyon.animalSound("fruit"));//invaluable intensity
         System.out.println("----------------------------End------------------------------");
     }
 }
